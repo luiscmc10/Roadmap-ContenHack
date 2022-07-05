@@ -77,7 +77,7 @@ body {
     left: 8px;
 }
   
-.container .date {
+/* .container .date {
     position: absolute;
     display: inline-block;
     top: calc(50% - 8px);
@@ -96,7 +96,7 @@ body {
   
   .container.right .date {
     left: +95px;
-}
+} */
   
   /* circulo interno */
 .container .icon {
@@ -137,18 +137,25 @@ body {
   
 .container .content h2 {
     margin: 0 0 10px 0;
-    font-size: 18px;
-    font-weight: normal;
+    font-size: 20px;
+    font-weight:bold;
     color: #093364;
 }
   
 .container .content p {
-    margin: 0;
     font-size: 16px;
     line-height: 22px;
     color: #faf7f7;
   
 }
+
+.container .content a{
+    font-size: 16px;
+    margin:10px 0px;
+    color: #faf7f7;
+    text-decoration: underline;
+}
+
   
 @media (max-width: 767.98px) {
     .timeline::after {
