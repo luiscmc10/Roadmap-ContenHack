@@ -34,7 +34,7 @@ section.menu nav ul.menu__list li a{
     color: #fff;
 }
 
-section.menu nav ul.menu__list li:nth-child(4){
+section.menu nav ul.menu__list li:nth-child(1){
    font-weight: 700;
 
 }
