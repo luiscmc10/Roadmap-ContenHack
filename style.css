@@ -1,0 +1,92 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #093364;
+}
+
+div.container {
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    background-color:#f8f9fc;
+}
+
+div.container .container__card {
+    position: relative;
+    width: 320px;
+    padding: 40px;
+    border: 1px solid #eff1f9;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+    overflow: hidden;
+}
+
+div.container .container__card:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: calc(-100% + 4px);
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: 1;
+    transition: 0.5s ease-in-out;
+}
+
+div.container .container__card:hover:before {
+    bottom: 0;
+}
+
+div.container .container__card:nth-child(1):before {
+    background: #00c86f;
+}
+
+div.container .container__card:nth-child(2):before {
+    background: #1bcaff;
+}
+
+div.container .container__card:nth-child(3):before {
+    background: #e33f;
+}
+
+
+.container .container__card div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+}
+
+
+.container .container__card div h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    transition: 0.5s;
+    color: #777;
+}
+
+.container .container__card div p {
+    font-size: 18px;
+    transition: 0.5s;
+    color: #777;
+}
+
+.container .container__card  div a {
+    align-self: flex-end;
+    margin-top: 20px;
+    font-size: 14px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.5s;
+    background: #fff;
+    color: #777;
+    padding: 6px 10px;
+    font-weight: 600;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, .05);
+}
+
+.container .container__card:hover div h2,
+.container .container__card:hover div p {
+    color: white;
+}
