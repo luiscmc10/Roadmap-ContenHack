@@ -91,12 +91,11 @@ section.title img.title__image {
     border: 2px solid #070707;
     border-radius: 16px;
     z-index: 1;
-  }
+}
   
 .container.right::after {
     left: -8px;
 }
-  
   /* bandas */
 .container::before {
     content: '';
@@ -113,8 +112,7 @@ section.title img.title__image {
     left: 8px;
 }
   
-  
-  /* circulo interno */
+/* circulo interno */
 .container .icon {
     position: absolute;
     display: inline-block;
@@ -185,7 +183,7 @@ div.footer__container{
 }
 div.footer__container h3{
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 30px;
     color: white;
     font-size: 27px;
 }
@@ -206,6 +204,33 @@ div.footer__container a{
     font-weight: 500;
     font-size:.7rem;
    
+}
+
+div.footer__container ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.footer__container ul li.footer__empresas__list{
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+    margin: 15px;
+    
+}
+
+div.footer__container ul li.footer__empresas__list:hover{
+    transform: scale(1.2);
+    color:#6bd1ff
+}
+
+div.footer__container h4{
+    justify-content: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
 }
 
 div.footer__container p.container__boton{
