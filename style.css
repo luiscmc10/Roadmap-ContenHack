@@ -4,6 +4,7 @@ main {
     align-items: center;
     min-height: 90vh;
     background: #093364;
+    
 }
 
 div.container {
@@ -20,7 +21,7 @@ div.container .container__card {
     width: 200px;
     height: 150px; 
     padding: 10px;
-    border: 1px solid #0d4d9c;
+    border: 1px solid #167bf7;
     border-radius: 5px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
     overflow: hidden;
