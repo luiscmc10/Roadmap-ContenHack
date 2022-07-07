@@ -30,6 +30,7 @@ section.title div.title__container h2 {
 
 section.title div.title__div div.title__container h3 {
     font-size: 17px;
+    font-weight: 700;
     line-height: 23px;
     width: 600px;
     margin-bottom: 30px;
@@ -150,13 +151,15 @@ section.title img.title__image {
   
 .container .content h2 {
     margin: 0 0 10px 0;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 700;
     font-weight:bold;
     color: #093364;
 }
   
 .container .content p {
     font-size: 16px;
+    font-weight: 400;
     line-height: 22px;
     color: #093366;
   
@@ -165,6 +168,7 @@ section.title img.title__image {
 .container .content a{
     font-size: 16px;
     margin:10px 0px;
+    font-weight: 400;
     color: #093366;
     text-decoration: underline;
 }
@@ -185,12 +189,14 @@ div.footer__container h3{
     margin-top: 30px;
     color: white;
     font-size: 27px;
+    font-weight: 700;
 }
 
 div.footer__container p{
     justify-content: center;
     color: white;
     font-size: 18px;
+    font-weight: 400;
 }
 
 div.footer__container a{
@@ -200,7 +206,7 @@ div.footer__container a{
     height: 5em;
     display: flex;
     align-items: center;
-    font-weight: 500;
+    font-weight: 400;
     font-size:.7rem;
    
 }

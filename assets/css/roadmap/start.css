@@ -122,14 +122,15 @@ body {
 }
 .container .content h2 {
     margin: 0 0 10px 0;
-    font-size: 20px;
-    font-weight:bold;
+    font-size: 25px;
+    font-weight:700;
     color: #093364;
 }
   
 .container .content p {
   font-size: 16px;
   line-height: 22px;
+  font-weight: 400;
   color: #093364;
 
 }
@@ -137,6 +138,7 @@ body {
 .container .content a{
   font-size: 16px;
   margin:10px 0px;
+  font-weight: 400;
   color: #093364;
   text-decoration: underline;
 }
@@ -180,7 +182,7 @@ section.video aside.video__info {
 section.video aside.video__info h2{
   margin-top: 10%;
   font-size: 30px;
-  font-weight:bold;
+  font-weight:700;
   color: #093364;
 
 }
@@ -188,6 +190,7 @@ section.video aside.video__info h2{
 section.video aside.video__info p{
   font-size: 16px;
   line-height: 22px;
+  font-weight: 400;
   color: #093364;
 }
 

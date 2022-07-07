@@ -4,9 +4,7 @@ main {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    /* background: #E5F1FF; */
     background-image: url(/assets/img/fundo\ front.png);
-    /* background-color: #041b3a; */
     position: relative;
     background-position: center;
     background-size: cover;
@@ -26,7 +24,7 @@ div.container .container__card {
     width: 200px;
     height: 150px; 
     padding: 10px;
-    border: 1px solid #0d4d9c;
+    border: 1px solid #167bf7;
     border-radius: 5px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
     overflow: hidden;
@@ -39,7 +37,7 @@ div.container .container__card::before {
     bottom: calc(-100% + 4px);
     width: 100%;
     height: 100%;
-    background: #051d3b;
+    background: #167bf7;
     z-index: 1;
     transition: 0.5s ease-in-out;
 } 
@@ -59,12 +57,14 @@ div.container .container__card:hover::before {
 .container .container__card div h2 {
     margin-bottom: 10px;
     font-size: 30px;
+    font-weight: 700;
     transition: 0.5s;
     color: #777;
 }
 
 .container .container__card div p {
     font-size: 18px;
+    font-weight: 400;
     transition: 0.5s;
     color: #777;
 }
@@ -86,21 +86,24 @@ div.footer__container{
 }
 div.footer__container h3{
     justify-content: center;
-    margin-top: 50px; 
+    margin-top: 30px; 
+    font-weight: 700;
     color: white;
     font-size: 27px;
 }
 
 div.footer__container p{
     justify-content: center;
+    font-weight: 400;
     color: white;
     font-size: 18px;
+    margin: 5px;
 }
 
 div.footer__container a{
     border-radius: 25px;
     background-color: white;
-    margin-top: 2em;
+    margin-top: 1em;
     height: 5em;
     display: flex;
     align-items: center;

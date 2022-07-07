@@ -44,7 +44,6 @@ div.container .container__card:hover::before {
 } 
 
 
-
 .container .container__card div {
     display: flex;
     flex-direction: column;
@@ -56,6 +55,7 @@ div.container .container__card:hover::before {
 .container .container__card div h2 {
     margin-bottom: 10px;
     font-size: 30px;
+    font-weight: 700;
     transition: 0.5s;
     color: #777;
 }
