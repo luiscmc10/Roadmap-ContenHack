@@ -21,6 +21,10 @@ header.menu__header {
     /* color: #464646; */
 }
 
+header.menu__header img{
+    
+}
+
 /* itens  menu*/
 section.menu nav ul.menu__list {
     display: flex;
