@@ -1,9 +1,15 @@
+
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 55vh;
-    background: #E5F1FF;
+    min-height: 100vh;
+    /* background: #E5F1FF; */
+    background-image: url(/assets/img/fundo\ front.png);
+    /* background-color: #041b3a; */
+    position: relative;
+    background-position: center;
+    background-size: cover;
 }
 
 div.container {
@@ -42,8 +48,6 @@ div.container .container__card:hover::before {
     bottom: 0;
 } 
 
-
-
 .container .container__card div {
     display: flex;
     flex-direction: column;
@@ -73,16 +77,16 @@ div.footer__container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 35vh;
+    min-height: 30vh;
     background-image: url(/assets/img/footer.1647533643.png);
     background-color: #041b3a;
     position: relative;
     background-position: center;
-    background-size: cover;
+    background-size: cover; 
 }
 div.footer__container h3{
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 50px; 
     color: white;
     font-size: 27px;
 }
