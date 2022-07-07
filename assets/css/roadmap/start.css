@@ -149,7 +149,7 @@ section.video{
   align-items: center;
   flex-direction: row;
   min-height: 40vh;
-  background:#d0cfcf; 
+  background:#E5F1FF; 
 }
 
 section.video div.video__one{
@@ -179,6 +179,12 @@ section.video aside.video__info h2{
   font-size: 30px;
   font-weight:bold;
 
+}
+
+section.video aside.video__info p{
+  font-size: 16px;
+  line-height: 22px;
+  color: #093364;
 }
 
 @media (max-width: 767.98px) {
